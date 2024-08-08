@@ -1,0 +1,2 @@
+m = Sketchup.active_model
+m.save_copy(m.path.delete_suffix('.skp') << '_v2016.skp', Sketchup::Model::VERSION_2016)
